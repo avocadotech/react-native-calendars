@@ -36,7 +36,9 @@ export default function(theme={}) {
     week: {
       marginTop: 7,
       flexDirection: 'row',
-      justifyContent: 'space-around'
+      justifyContent: 'space-around',
+      borderBottomWidth: 1,
+      borderBottomColor: '#BBBBBB',
     },
     dayHeader: {
       marginTop: 2,
